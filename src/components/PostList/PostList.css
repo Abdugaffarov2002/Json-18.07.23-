@@ -1,0 +1,36 @@
+.inbox h3 {
+  text-align: center;
+}
+
+.search_inp {
+  padding: 5px;
+  border-radius: 8px;
+}
+.btns {
+  width: 100%;
+  display: flex;
+  margin-left: 177px;
+  justify-content: center;
+  margin-top: 5px;
+}
+.btns :first-child {
+  color: white;
+}
+.btns :nth-child(2) {
+  color: white;
+  background-color: #1976d2;
+}
+.btns :last-child {
+  color: white;
+  border: none;
+}
+
+.list {
+  gap: 15px;
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+
+  align-items: center;
+}
